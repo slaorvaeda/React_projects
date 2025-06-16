@@ -1,0 +1,27 @@
+.slider-section {
+  margin-bottom: 2rem;
+}
+.slider-section h2 {
+  margin-left: 1rem;
+}
+.slider-container {
+  display: flex;
+  overflow-x: auto;
+  gap: 1rem;
+  padding: 1rem;
+}
+.slider-item {
+  min-width: 180px;
+  background: #222;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+  text-align: center;
+  color: #fff;
+  padding: 0.5rem;
+}
+.slider-item img {
+  width: 100%;
+  border-radius: 6px;
+  height: 250px;
+  object-fit: cover;
+}
